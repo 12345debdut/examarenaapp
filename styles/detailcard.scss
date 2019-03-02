@@ -1,0 +1,75 @@
+.card-detail1{
+    background-color: transparent;
+    border-color: white;
+    border-width: 3px;
+    margin: 30px;
+}
+.card-header1{
+    width: auto;
+    height: 50px;
+}
+.card-footer1{
+    width: auto;
+    height: 50px;
+    background-color: transparent;
+    border-color: white;
+    border-width: 3px;
+}
+.base-card{
+    padding-top: 200px;
+}
+.cards-style
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.text-style1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.card-body1{
+    overflow:auto;
+    width: auto;
+    height: 200px;
+    background-color: transparent;
+    border-color: white;
+    border-width: 3px;
+}
+.active1{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    background-color: #f57f17;
+    width: auto;
+    & p{
+        color: white;
+    }
+    cursor: pointer;
+}
+.inactive1{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    background-color: #da7426;
+    width: auto;
+    & p{
+        color: white;
+    }
+    cursor: pointer;
+}
+.wbjee-jeemain{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row;
+}

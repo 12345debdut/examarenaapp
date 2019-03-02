@@ -1,0 +1,100 @@
+.profile-bg-bg{
+    padding-top: 150px;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-self: center;
+}
+.label-style{
+    position: relative;
+}
+#file-input{
+    position:absolute;
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
+    opacity: 0;
+}
+.profile-bg{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    box-shadow: 0 0 15px rgb(160, 184, 26);
+    margin: 5px 1px 3px 0px;
+    border: 2px solid rgb(161, 163, 20);
+    margin-bottom: 30px;
+}
+.profile-card{
+    height: auto;
+    width: auto;
+    padding-right: 40px;
+    box-shadow: 0 0 15px rgb(160, 184, 26);
+    margin: 5px 1px 3px 0px;
+    border: 2px solid rgb(161, 163, 20);
+    background: none;
+}
+.profile-div{
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.profile-title{
+    font-family: 'Times New Roman', Times, serif;
+    color:#cddc39;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+.profile-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#9ccc65;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+.group-cards{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+.divider-style{
+    width: 600px;
+    color: #fff176;
+}
+.loading-div{
+    padding-top: 150px;
+}
+.loading-title{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content:flex-start;
+    align-self:flex-start;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .individual-style{
+      padding-bottom: 20px;
+  }

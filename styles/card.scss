@@ -1,0 +1,120 @@
+.card-style{
+    height: 600px;
+    width: 400px;
+    border: 1px;
+    background-color: white;
+    box-shadow: 0 0 15px rgb(106, 20, 163);
+    margin: 5px 1px 3px 0px;
+    border: 2px solid rgb(106, 20, 163);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.card-style1{
+    height: 650px;
+    width: 400px;
+    border: 1px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px #216464;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.signin-style{
+    padding: 40px 0px 30px 100px;
+    background-color: #283048;
+    border-radius: 20px;
+    border-color: white;
+}
+.input-style{
+    justify-content: flex-end;
+    padding-top: 40px;
+    padding-left: 60px;
+    width: 350px;
+}
+.input-style1{
+    padding-top: 40px;
+    padding-left: 60px;
+    width: 350px;
+}
+.submit-style{
+    padding-top: 40px;
+    padding-left: 170px;
+}
+$color: #ff8f00;
+
+@keyframes sheen {
+  0% {
+    transform: skewY(-45deg) translateX(0);
+  }
+  100% {
+    transform: skewY(-45deg) translateX(12.5em);
+  }
+}
+.wrapper1{
+    padding: 40px 0px 0px 150px;
+    a{
+        text-emphasis: none;
+        text-decoration: none;
+    }
+}
+.button {
+  padding: 10px 10px 15px 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: $color;
+  border: 2px solid $color;
+  font-size: 18px;
+  display: inline-block;
+  border-radius: 0.3em;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  &:before {
+    content: "";
+    background-color: rgba(255,255,255,0.5);
+    height: 100%;
+    width: 3em;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -4.5em;
+    transform: skewX(-45deg) translateX(0);
+    transition: none;
+  }
+  &:hover {
+    background-color: $color;
+    color: #fff;
+    border-bottom: 4px solid darken($color, 10%);
+    &:before {
+      transform: skewX(-45deg) translateX(13.5em);
+     transition: all 0.5s ease-in-out;
+    }
+  }
+}
+.text-style1{
+    color:#159acf;
+    font-weight:bold;
+    font-size:18px;
+
+}
+.text-style2{
+    color:#283048;
+    font-weight:bold;
+    font-size:18px;
+}
+.signup-do{
+    padding-top: 10px;
+    margin-left: 100px;
+}
+.input-focus:focus{
+    box-shadow: 0 0 5px rgb(219, 199, 15);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgb(238, 234, 21);
+}
+.signup-text{
+    color: #283048;
+    text-decoration: underline;
+    cursor:pointer;
+}
